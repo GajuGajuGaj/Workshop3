@@ -9,22 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53803aba-7205-4955-87b9-67bcb8b924f0" name="Changes" comment="przygotowanie">
-      <change afterPath="$PROJECT_DIR$/../jee-user-crud/src/main/java/pl/coderslab/users/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jee-user-crud/src/main/java/pl/coderslab/users/add.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jee-user-crud/src/main/java/pl/coderslab/users/delete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jee-user-crud/src/main/java/pl/coderslab/users/details.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jee-user-crud/src/main/java/pl/coderslab/users/edit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jee-user-crud/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jee-user-crud/src/main/webapp/users/details.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jee-user-crud/src/main/java/pl/coderslab/users/UserList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jee-user-crud/src/main/java/pl/coderslab/users/UserList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jee-user-crud/src/main/java/pl/coderslab/utils/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jee-user-crud/src/main/java/pl/coderslab/utils/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jee-user-crud/src/main/webapp/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../jee-user-crud/src/main/webapp/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jee-user-crud/src/main/webapp/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../jee-user-crud/src/main/webapp/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jee-user-crud/src/main/webapp/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jee-user-crud/src/main/webapp/users/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../jee-user-crud/src/main/webapp/users/add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jee-user-crud/src/main/webapp/users/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../jee-user-crud/src/main/webapp/users/edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jee-user-crud/src/main/webapp/users/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../jee-user-crud/src/main/webapp/users/list.jsp" afterDir="false" />
+    <list default="true" id="53803aba-7205-4955-87b9-67bcb8b924f0" name="Changes" comment="zrobione">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,10 +27,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../jee-user-crud" />
-  </component>
-  <component name="JspContextManager">
-    <jsp-to-context jsp-file="file://$PROJECT_DIR$/../jee-user-crud/src/main/webapp/users/list.jsp" context-file="file://$PROJECT_DIR$/../jee-user-crud/src/main/webapp/headerfootertest.jsp" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -73,9 +57,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Tomcat Server.Workshop3.executor": "Run",
     "Tomcat Server.list.jsp.executor": "Run",
-    "git-widget-placeholder": "przygotowanie",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/dawid/ONL_JEU_W_02_Servlety_Praca_Domowa",
+    "last_opened_file_path": "C:/Users/dawid/jee-user-crud",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -256,7 +240,8 @@
       <workItem from="1710873941827" duration="1305000" />
       <workItem from="1710878478007" duration="4007000" />
       <workItem from="1710921822840" duration="3599000" />
-      <workItem from="1710927541865" duration="8340000" />
+      <workItem from="1710927541865" duration="8936000" />
+      <workItem from="1710938190374" duration="318000" />
     </task>
     <task id="LOCAL-00001" summary="przygotowanie">
       <option name="closed" value="true" />
@@ -266,7 +251,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710870507850</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="zrobione">
+      <option name="closed" value="true" />
+      <created>1710936123565</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710936123565</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +267,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="przygotowanie" />
-    <option name="LAST_COMMIT_MESSAGE" value="przygotowanie" />
+    <MESSAGE value="zrobione" />
+    <option name="LAST_COMMIT_MESSAGE" value="zrobione" />
   </component>
 </project>
