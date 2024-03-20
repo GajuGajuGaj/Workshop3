@@ -15,7 +15,7 @@
 
 <div class="d-sm-flex align-items-center justify-content-between mb-4">
     <h1 class="h3 mb-0 text-gray-800">UsersCRUD</h1>
-    <a href="user/list" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+    <a href="/user/list" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
             class="fas fa-download fa-sm text-white-50"></i> Lista użytkowników</a>
 </div>
 
@@ -25,14 +25,14 @@
     </div>
     <div class="card-body">
         <div class="table-responsive">
-            <form action="/user/add" class="table table-bordered" method="post">
+            <form action="/user/edit" class="table table-bordered" method="post">
                 Nazwa użytkownika<br>
-                <input type="text" name="userName" placeholder="Nazwa użytkownika" value="użytkownik"/><br>
+                <input type="text" name="userName" placeholder="Nazwa użytkownika" value="${user.userName}"/><br>
                 e-mail<br>
-                <input type="text" name="email" placeholder="e-mail użytkownika" value="e-mail"/><br>
+                <input type="text" name="email" placeholder="e-mail użytkownika" value="${user.email}"/><br>
                 Hasło<br>
                 <input type="text" name="password" placeholder="Hasło użytkownika"/><br><br>
-                <button type="submit" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">Edytuj</button>
+                <button type="submit" name ="id" value= "${user.id}" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">Edytuj</button>
             </form>
         </div>
     </div>

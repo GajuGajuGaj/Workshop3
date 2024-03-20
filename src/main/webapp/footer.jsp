@@ -1,3 +1,7 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <footer class="sticky-footer bg-white">
   <div class="container my-auto">

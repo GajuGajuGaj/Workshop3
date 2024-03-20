@@ -1,12 +1,24 @@
 <%--
   Created by IntelliJ IDEA.
   User: dawid
+  Date: 20.03.2024
+  Time: 09:32
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <title>Szczegóły użytkownika</title>
+</head>
+<body>
+<%--
+  Created by IntelliJ IDEA.
+  User: dawid
   Date: 19.03.2024
   Time: 21:15
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <html>
 <head>
     <title>Lista użytkowników</title>
@@ -22,28 +34,21 @@
 
 <div class="card shadow mb-4">
     <div class="card-header py-3">
-        <h6 class="m-0 font-weight-bold text-primary">Lista użytkowników</h6>
+        <h6 class="m-0 font-weight-bold text-primary">Szczegóły użytkownika</h6>
     </div>
     <div class="card-body">
         <div class="table-responsive">
-            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                <thead>
-                <tr>
-                    <th>ID</th>
-                    <th>Nazwa użytkownika</th>
-                    <th>e-mail</th>
-                    <th>Akcja</th>
-                </tr>
-                </thead>
+            <table class="table table-borderless" id="dataTable" width="100%" cellspacing="0">
                 <tbody>
-                <c:forEach items="${users}" var="user">
-                    <tr>
-                        <td>${user.id}</td>
-                        <td>${user.userName}</td>
-                        <td>${user.email}</td>
-                        <td><a href="/user/delete?id=${user.id}">Usuń</a> <a href="/user/edit?id=${user.id}">Edytuj</a> <a href="/user/show?id=${user.id}">Pokaż</a></td>
-                    </tr>
-                </c:forEach>
+                <tr>
+                    <th >ID</th><td>${user.id}</td>
+                </tr>
+                <tr>
+                    <th>Nazwa użytkownika</th><td>${user.userName}</td>
+                </tr>
+                <tr>
+                    <th>e-mail</th><td>${user.email}</td>
+                </tr>
                 </tbody>
             </table>
         </div>
@@ -52,5 +57,8 @@
 </div>
 </div>
 <%@ include file="/footer.jsp" %>
+</body>
+</html>
+
 </body>
 </html>

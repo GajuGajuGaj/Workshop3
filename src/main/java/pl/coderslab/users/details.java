@@ -11,19 +11,17 @@ import javax.servlet.http.HttpServletResponse;
 import pl.coderslab.utils.User;
 import pl.coderslab.utils.UserDao;
 
-@WebServlet("/user/list")
-public class UserList extends HttpServlet {
+@WebServlet("/user/show")
+public class details extends HttpServlet {
   protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
     UserDao userDao = new UserDao();
-    User[] users;
+    User user;
     try {
-      users = userDao.findAll();
-      for (User user : users) {
-      }
+      user = userDao.read(Integer.parseInt(request.getParameter("id")));
     } catch (SQLException e) {
       throw new RuntimeException(e);
     }
-    request.setAttribute("users", users);
-    getServletContext().getRequestDispatcher("/users/list.jsp").forward(request, response);
+    request.setAttribute("user", user);
+    getServletContext().getRequestDispatcher("/users/details.jsp").forward(request, response);
   }
 }
