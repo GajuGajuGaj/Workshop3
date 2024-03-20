@@ -36,8 +36,8 @@ public class UserDao {
     ResultSet resultSet = statement.executeQuery("select * from users where id=" + UserId)) {
       if (resultSet.next()) {
         result.setId(resultSet.getInt(1));
-        result.setEmail(resultSet.getString(2));
-        result.setUserName(resultSet.getString(3));
+        result.setUserName(resultSet.getString(2));
+        result.setEmail(resultSet.getString(3));
         result.setPassword(resultSet.getString(4));
       } else {
         result = null;
@@ -75,8 +75,8 @@ public class UserDao {
       while (resultSet.next()) {
         User u = new User();
         u.setId(resultSet.getInt(1));
-        u.setEmail(resultSet.getString(2));
-        u.setUserName(resultSet.getString(3));
+        u.setEmail(resultSet.getString(3));
+        u.setUserName(resultSet.getString(2));
         u.setPassword(resultSet.getString(4));
         users = addToArray(u, users);
       }
