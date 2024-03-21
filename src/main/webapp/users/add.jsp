@@ -5,6 +5,7 @@
   Time: 21:32
   To change this template use File | Settings | File Templates.
 --%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -24,21 +25,16 @@
         <h6 class="m-0 font-weight-bold text-primary">Dodaj użytkownika</h6>
     </div>
     <div class="card-body">
-        <div class="table-responsive">
-            <form action="/user/add" class="table table-bordered" method="post" >
-                Nazwa użytkownika<br><br>
-
-                <input type="text" name="userName" style="background-color: #f8f9fc; border: 1px solid #e3e6f0; border-radius: 5px; font-size:15px; padding: 10px; height: 35px;" placeholder="Nazwa użytkownika"/><br>
-                e-mail<br><br>
-                <input type="text" name="email" style="background-color: #f8f9fc; border: 1px solid #e3e6f0; border-radius: 5px; font-size:15px; padding: 10px; height: 35px;" placeholder="e-mail użytkownika"/><br>
-                Hasło<br><br>
-                <input type="text" name="password" style="background-color: #f8f9fc; border: 1px solid #e3e6f0; border-radius: 5px; font-size:15px; padding: 10px; height: 35px;" placeholder="Hasło użytkownika"/><br><br>
+            <form action="/user/add" method="post" >
+                Nazwa użytkownika<br>
+                <input type="text" style="background-color: #f8f9fc; border: 1px solid #e3e6f0; border-radius: 5px; font-size:15px; padding: 10px; height: 35px;" name="userName" placeholder="Nazwa użytkownika"/><br>
+                e-mail<br>
+                <input type="text" style="background-color: #f8f9fc; border: 1px solid #e3e6f0; border-radius: 5px; font-size:15px; padding: 10px; height: 35px;" name="email" placeholder="e-mail użytkownika"/><br>
+                Hasło<br>
+                <input type="password" style="background-color: #f8f9fc; border: 1px solid #e3e6f0; border-radius: 5px; font-size:15px; padding: 10px; height: 35px;" name="password" placeholder="Hasło użytkownika"/><br><br>
                 <button type="submit" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">Zapisz</button>
             </form>
-        </div>
     </div>
-</div>
-</div>
 </div>
 <%@ include file="/footer.jsp" %>
 </body>

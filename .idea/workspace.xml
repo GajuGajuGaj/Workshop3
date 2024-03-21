@@ -9,13 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53803aba-7205-4955-87b9-67bcb8b924f0" name="Changes" comment="zrobione">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/016aec7d-5c91-4e23-835e-b34a0c81e6f0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/016aec7d-5c91-4e23-835e-b34a0c81e6f0.xml" afterDir="false" />
+    <list default="true" id="53803aba-7205-4955-87b9-67bcb8b924f0" name="Changes" comment="detale css (dodaj,edytuj)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/users/edit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/users/edit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/theme/css/sb-admin-2.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/theme/css/sb-admin-2.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/users/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/users/add.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/users/details.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/users/details.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/users/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/users/edit.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -247,7 +246,8 @@
       <workItem from="1710927541865" duration="8936000" />
       <workItem from="1710938190374" duration="358000" />
       <workItem from="1710938697291" duration="2885000" />
-      <workItem from="1710962659904" duration="4371000" />
+      <workItem from="1710962659904" duration="4441000" />
+      <workItem from="1711021308916" duration="3243000" />
     </task>
     <task id="LOCAL-00001" summary="przygotowanie">
       <option name="closed" value="true" />
@@ -281,7 +281,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710938722657</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="detale css (dodaj,edytuj)">
+      <option name="closed" value="true" />
+      <created>1711013572366</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711013572366</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,6 +298,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="przygotowanie" />
     <MESSAGE value="zrobione" />
-    <option name="LAST_COMMIT_MESSAGE" value="zrobione" />
+    <MESSAGE value="detale css (dodaj,edytuj)" />
+    <option name="LAST_COMMIT_MESSAGE" value="detale css (dodaj,edytuj)" />
   </component>
 </project>
