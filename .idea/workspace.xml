@@ -9,8 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53803aba-7205-4955-87b9-67bcb8b924f0" name="Changes" comment="klasa form-input zamiast ręcznych styli w inputach w formularzu, ponaprawiane linki do .js w footerze">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="53803aba-7205-4955-87b9-67bcb8b924f0" name="Changes" comment="style (lista)">
       <change beforePath="$PROJECT_DIR$/src/main/webapp/users/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/users/list.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -246,7 +245,7 @@
       <workItem from="1710962659904" duration="4441000" />
       <workItem from="1711021308916" duration="3894000" />
       <workItem from="1711037765516" duration="3553000" />
-      <workItem from="1711053660279" duration="3571000" />
+      <workItem from="1711053660279" duration="3872000" />
     </task>
     <task id="LOCAL-00001" summary="przygotowanie">
       <option name="closed" value="true" />
@@ -312,7 +311,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711041329940</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="style (lista)">
+      <option name="closed" value="true" />
+      <created>1711064627557</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1711064627557</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,6 +331,7 @@
     <MESSAGE value="detale css (dodaj,edytuj)" />
     <MESSAGE value="div div div" />
     <MESSAGE value="klasa form-input zamiast ręcznych styli w inputach w formularzu, ponaprawiane linki do .js w footerze" />
-    <option name="LAST_COMMIT_MESSAGE" value="klasa form-input zamiast ręcznych styli w inputach w formularzu, ponaprawiane linki do .js w footerze" />
+    <MESSAGE value="style (lista)" />
+    <option name="LAST_COMMIT_MESSAGE" value="style (lista)" />
   </component>
 </project>

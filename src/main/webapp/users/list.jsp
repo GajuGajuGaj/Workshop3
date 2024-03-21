@@ -26,13 +26,13 @@
     </div>
     <div class="card-body">
         <div>
-            <table class="table table-borderless" style="border: 1px solid white" id="dataTable" width="100%" cellspacing="0">
+            <table class="table table-borderless" id="dataTable" width="100%" cellspacing="0">
                 <thead>
-                <tr style="border-bottom: 1px solid #e3e6f0;">
-                    <th style="background-color:#fafcff; border-right: 1px solid #e3e6f0">ID</th>
+                <tr>
+                    <th style="background-color:#fafcff; border-right: 1px solid #e3e6f0; border-top-left-radius: 15px;">ID</th>
                     <th style="background-color:#fafcff; border-right: 1px solid #e3e6f0">Nazwa użytkownika</th>
                     <th style="background-color:#fafcff; border-right: 1px solid #e3e6f0">e-mail</th>
-                    <th style="background-color:#fafcff">Akcja</th>
+                    <th style="background-color:#fafcff; border-top-right-radius: 15px;">Akcja</th>
                 </tr>
                 </thead>
                 <tbody>
