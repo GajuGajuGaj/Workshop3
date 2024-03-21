@@ -25,22 +25,22 @@
         <h6 class="m-0 font-weight-bold text-primary">Lista użytkowników</h6>
     </div>
     <div class="card-body">
-        <div class="table-responsive">
-            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+        <div>
+            <table class="table table-borderless" style="border: 1px solid white" id="dataTable" width="100%" cellspacing="0">
                 <thead>
-                <tr>
-                    <th>ID</th>
-                    <th>Nazwa użytkownika</th>
-                    <th>e-mail</th>
-                    <th>Akcja</th>
+                <tr style="border-bottom: 1px solid #e3e6f0;">
+                    <th style="background-color:#fafcff; border-right: 1px solid #e3e6f0">ID</th>
+                    <th style="background-color:#fafcff; border-right: 1px solid #e3e6f0">Nazwa użytkownika</th>
+                    <th style="background-color:#fafcff; border-right: 1px solid #e3e6f0">e-mail</th>
+                    <th style="background-color:#fafcff">Akcja</th>
                 </tr>
                 </thead>
                 <tbody>
                 <c:forEach items="${users}" var="user">
-                    <tr>
-                        <td>${user.id}</td>
-                        <td>${user.userName}</td>
-                        <td>${user.email}</td>
+                    <tr style="border-top: 1px solid #e3e6f0;">
+                        <td style="border-right: 1px solid #e3e6f0">${user.id}</td>
+                        <td style="border-right: 1px solid #e3e6f0">${user.userName}</td>
+                        <td style="border-right: 1px solid #e3e6f0">${user.email}</td>
                         <td><a href="/user/delete?id=${user.id}">Usuń</a> <a href="/user/edit?id=${user.id}">Edytuj</a> <a href="/user/show?id=${user.id}">Pokaż</a></td>
                     </tr>
                 </c:forEach>
