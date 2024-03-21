@@ -5,7 +5,6 @@
   Time: 21:32
   To change this template use File | Settings | File Templates.
 --%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -13,6 +12,7 @@
 </head>
 <body>
 <%@ include file="/header.jsp" %>
+
 
 <div class="d-sm-flex align-items-center justify-content-between mb-4">
     <h1 class="h3 mb-0 text-gray-800">UsersCRUD</h1>
@@ -27,11 +27,11 @@
     <div class="card-body">
             <form action="/user/add" method="post" >
                 Nazwa użytkownika<br>
-                <input type="text" style="background-color: #f8f9fc; border: 1px solid #e3e6f0; border-radius: 5px; font-size:15px; padding: 10px; height: 35px;" name="userName" placeholder="Nazwa użytkownika"/><br>
+                <input type="text" class="form-input" name="userName" placeholder="Nazwa użytkownika"/><br>
                 e-mail<br>
-                <input type="text" style="background-color: #f8f9fc; border: 1px solid #e3e6f0; border-radius: 5px; font-size:15px; padding: 10px; height: 35px;" name="email" placeholder="e-mail użytkownika"/><br>
+                <input type="text" class="form-input" name="email" placeholder="e-mail użytkownika"/><br>
                 Hasło<br>
-                <input type="password" style="background-color: #f8f9fc; border: 1px solid #e3e6f0; border-radius: 5px; font-size:15px; padding: 10px; height: 35px;" name="password" placeholder="Hasło użytkownika"/><br><br>
+                <input type="password" class="form-input" name="password" placeholder="Hasło użytkownika"/><br><br>
                 <button type="submit" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">Zapisz</button>
             </form>
     </div>

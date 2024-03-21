@@ -27,11 +27,11 @@
     <div class="card-body">
             <form action="/user/edit" method="post">
                 Nazwa użytkownika<br>
-                <input type="text" name="userName" style="background-color: #f8f9fc; border: 1px solid #e3e6f0; border-radius: 5px; font-size:15px; padding: 10px; height: 35px;" placeholder="Nazwa użytkownika" value="${user.userName}"/><br>
+                <input type="text" name="userName" class="form-input" placeholder="Nazwa użytkownika" value="${user.userName}"/><br>
                 e-mail<br>
-                <input type="text" name="email" style="background-color: #f8f9fc; border: 1px solid #e3e6f0; border-radius: 5px; font-size:15px; padding: 10px; height: 35px;" placeholder="e-mail użytkownika" value="${user.email}"/><br>
+                <input type="text" name="email" class="form-input" placeholder="e-mail użytkownika" value="${user.email}"/><br>
                 Hasło<br>
-                <input type="password" name="password" style="background-color: #f8f9fc; border: 1px solid #e3e6f0; border-radius: 5px; font-size:15px; padding: 10px; height: 35px;" placeholder="Hasło użytkownika"/><br><br>
+                <input type="password" name="password" class="form-input" placeholder="Hasło użytkownika"/><br><br>
                 <button type="submit" name ="id" value= "${user.id}" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">Edytuj</button>
             </form>
     </div>
