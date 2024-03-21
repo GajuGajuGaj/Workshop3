@@ -41,7 +41,7 @@
             <table class="table table-borderless" id="dataTable" width="100%" cellspacing="0">
                 <tbody>
                 <tr>
-                    <th >ID</th><td>${user.id}</td>
+                    <th>ID</th><td>${user.id}</td>
                 </tr>
                 <tr>
                     <th>Nazwa użytkownika</th><td>${user.userName}</td>

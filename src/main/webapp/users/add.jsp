@@ -27,11 +27,12 @@
         <div class="table-responsive">
             <form action="/user/add" class="table table-bordered" method="post" >
                 Nazwa użytkownika<br><br>
-                <input type="text" style="height: 35px;" class="table table-bordered" name="userName" placeholder="Nazwa użytkownika"/><br>
+
+                <input type="text" name="userName" style="background-color: #f8f9fc; border: 1px solid #e3e6f0; border-radius: 5px; font-size:15px; padding: 10px; height: 35px;" placeholder="Nazwa użytkownika"/><br>
                 e-mail<br><br>
-                <input type="text" style="height: 35px;" name="email" class ="table table-bordered" placeholder="e-mail użytkownika"/><br>
+                <input type="text" name="email" style="background-color: #f8f9fc; border: 1px solid #e3e6f0; border-radius: 5px; font-size:15px; padding: 10px; height: 35px;" placeholder="e-mail użytkownika"/><br>
                 Hasło<br><br>
-                <input type="text" style="height: 35px;" name="password" class ="table table-bordered" placeholder="Hasło użytkownika"/><br><br>
+                <input type="text" name="password" style="background-color: #f8f9fc; border: 1px solid #e3e6f0; border-radius: 5px; font-size:15px; padding: 10px; height: 35px;" placeholder="Hasło użytkownika"/><br><br>
                 <button type="submit" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">Zapisz</button>
             </form>
         </div>

@@ -9,7 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53803aba-7205-4955-87b9-67bcb8b924f0" name="Changes" comment="zrobione" />
+    <list default="true" id="53803aba-7205-4955-87b9-67bcb8b924f0" name="Changes" comment="zrobione">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/016aec7d-5c91-4e23-835e-b34a0c81e6f0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/016aec7d-5c91-4e23-835e-b34a0c81e6f0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/users/edit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/users/edit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/theme/css/sb-admin-2.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/theme/css/sb-admin-2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/users/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/users/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/users/details.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/users/details.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -239,6 +246,8 @@
       <workItem from="1710921822840" duration="3599000" />
       <workItem from="1710927541865" duration="8936000" />
       <workItem from="1710938190374" duration="358000" />
+      <workItem from="1710938697291" duration="2885000" />
+      <workItem from="1710962659904" duration="4371000" />
     </task>
     <task id="LOCAL-00001" summary="przygotowanie">
       <option name="closed" value="true" />
@@ -264,7 +273,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710938521812</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="zrobione">
+      <option name="closed" value="true" />
+      <created>1710938722657</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710938722657</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

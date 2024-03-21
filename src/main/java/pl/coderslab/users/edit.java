@@ -14,7 +14,7 @@ import pl.coderslab.utils.UserDao;
 public class edit extends HttpServlet {
   protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
     UserDao userDao = new UserDao();
-    User user = new User();
+    User user;
     try {
       user = userDao.read(Integer.parseInt(request.getParameter("id")));
     } catch (SQLException e) {
